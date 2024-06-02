@@ -1,0 +1,20 @@
+from pygame.math import Vector2 as vec
+
+WIDTH, HEIGHT = 610, 670
+TOP_BOTTOM_BUFFER = 50
+MAZE_WIDTH, MAZE_HEIGHT = WIDTH - TOP_BOTTOM_BUFFER, HEIGHT - TOP_BOTTOM_BUFFER
+FPS = 60
+
+BLACK = (0,0,0)
+WHITE = (255,255,255)
+GREY = (107,107,107)
+PLAYER_COLOR = (190,194,15)
+
+START_TEXT_SIZE = 28
+START_FONT = 'arial black'
+
+
+RIGHT = vec(1,0)
+LEFT = vec(-1,0)
+UP = vec(0,1)
+DOWN = vec(0,-1)
